@@ -1,0 +1,26 @@
+module.exports = {
+  host: "some.localtunnel.me",
+
+  twilio: {
+    sid: "ACCOUNT_SID",
+    auth_token: "AUTH_TOKEN"
+    number: "TWILIO NUMBER",
+
+    // This is a TwiML app SID configured with a Messaging URL
+    // Endpoint: /messaging
+    // 
+    // See: https://www.twilio.com/user/account/apps
+    app_sid: "APPLICATION_SID"
+  },
+
+  who: {
+    name: "YOUR NAME",
+    number: "+447111111111" // Your number
+  },
+
+  when: {
+    timezone: "Australia/Sydney"
+    minutes: "45"
+    hours: "19"
+  }
+};

@@ -2,11 +2,13 @@
   "name": "moodie-twilio",
   "version": "0.0.0",
   "description": "Track your mood via SMS messages",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Micheil Smith <micheil@brandedcode.com>",
   "license": "GPL-2",
   "dependencies": {
-    "twilio": "~1.4.0"
+    "twilio": "~1.5.0",
+    "time": "~0.10.0",
+    "cron": "~1.0.1",
+    "express": "~3.4.7"
   }
 }
