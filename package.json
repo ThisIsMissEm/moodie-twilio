@@ -7,5 +7,6 @@
   "author": "Micheil Smith <micheil@brandedcode.com>",
   "license": "GPL-2",
   "dependencies": {
+    "twilio": "~1.4.0"
   }
 }
